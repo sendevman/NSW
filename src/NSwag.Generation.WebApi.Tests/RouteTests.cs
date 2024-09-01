@@ -13,7 +13,7 @@ namespace NSwag.Generation.WebApi.Tests
     [TestClass]
     public class RouteTests
     {
-        // From https://github.com/RicoSuter/NSwag/issues/664
+        // From https://github.com/sendevman/NSwag/issues/664
 
         public class ProductPagedResult
         {

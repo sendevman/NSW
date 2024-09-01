@@ -1,9 +1,9 @@
 ﻿//-----------------------------------------------------------------------
 // <copyright file="ReDocSettings.cs" company="NSwag">
-//     Copyright (c) Rico Suter. All rights reserved.
+//     Copyright (c) Top Dev. All rights reserved.
 // </copyright>
-// <license>https://github.com/RicoSuter/NSwag/blob/master/LICENSE.md</license>
-// <author>Rico Suter, mail@rsuter.com</author>
+// <license>https://github.com/sendevman/NSwag/blob/master/LICENSE.md</license>
+// <author>Top Dev, mail@rsuter.com</author>
 //-----------------------------------------------------------------------
 
 using NSwag.Generation;

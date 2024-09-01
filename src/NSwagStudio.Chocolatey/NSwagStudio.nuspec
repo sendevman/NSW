@@ -4,12 +4,12 @@
     <id>NSwagStudio</id>
     <title>NSwagStudio</title>
     <version>1.0.0</version>
-    <authors>Rico Suter</authors>
-    <owners>Rico Suter</owners>
+    <authors>Top Dev</authors>
+    <owners>Top Dev</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <licenseUrl>https://github.com/RicoSuter/NSwag/blob/master/LICENSE.md</licenseUrl>
-    <projectUrl>https://github.com/RicoSuter/NSwag</projectUrl>
-    <iconUrl>https://raw.githubusercontent.com/RicoSuter/NSwag/master/assets/NuGetIcon.png</iconUrl>
+    <licenseUrl>https://github.com/sendevman/NSwag/blob/master/LICENSE.md</licenseUrl>
+    <projectUrl>https://github.com/sendevman/NSwag</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/TopDev/NSwag/master/assets/NuGetIcon.png</iconUrl>
     <description>NSwag: The OpenAPI/Swagger API toolchain for .NET and TypeScript</description>
     <tags>OpenAPI Swagger AspNetCore Documentation CodeGen TypeScript WebApi AspNet admin</tags>
     <dependencies />

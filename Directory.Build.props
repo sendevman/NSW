@@ -2,8 +2,8 @@
   <PropertyGroup>
     <VersionPrefix>14.1.0</VersionPrefix>
 
-    <Authors>Rico Suter</Authors>
-    <Copyright>Copyright © Rico Suter, 2023</Copyright>
+    <Authors>Top Dev</Authors>
+    <Copyright>Copyright © Top Dev, 2023</Copyright>
 
     <Description>NSwag: The OpenAPI/Swagger API toolchain for .NET and TypeScript</Description>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
@@ -16,7 +16,7 @@
     <AssemblyOriginatorKeyFile>../NSwag.snk</AssemblyOriginatorKeyFile>
 
     <RepositoryType>git</RepositoryType>
-    <RepositoryUrl>https://github.com/RicoSuter/NSwag.git</RepositoryUrl>
+    <RepositoryUrl>https://github.com/sendevman/NSwag.git</RepositoryUrl>
 
     <LangVersion>latest</LangVersion>
     <!-- TODO -->

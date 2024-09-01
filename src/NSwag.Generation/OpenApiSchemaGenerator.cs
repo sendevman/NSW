@@ -1,9 +1,9 @@
 //-----------------------------------------------------------------------
 // <copyright file="SwaggerJsonSchemaGenerator.cs" company="NJsonSchema">
-//     Copyright (c) Rico Suter. All rights reserved.
+//     Copyright (c) Top Dev. All rights reserved.
 // </copyright>
-// <license>https://github.com/RicoSuter/NJsonSchema/blob/master/LICENSE.md</license>
-// <author>Rico Suter, mail@rsuter.com</author>
+// <license>https://github.com/TopDev/NJsonSchema/blob/master/LICENSE.md</license>
+// <author>Top Dev, mail@rsuter.com</author>
 //-----------------------------------------------------------------------
 
 using System;

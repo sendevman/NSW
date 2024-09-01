@@ -12,13 +12,13 @@ Also, since you've come to this repo, we'll assume you want to use NSwag as part
 
 ## Prerequisites
 
-- `NSwag` - This process we'll cover requires the `NSwag` commandline tool to help automate generation of a service client, an interface definition and DTOs. Follow [install instructions](https://github.com/RicoSuter/NSwag/wiki/CommandLine) to install the command line version of nswag.
+- `NSwag` - This process we'll cover requires the `NSwag` commandline tool to help automate generation of a service client, an interface definition and DTOs. Follow [install instructions](https://github.com/sendevman/NSwag/wiki/CommandLine) to install the command line version of nswag.
 - [OpenAPI Swagger Editor VS Code Extension](https://marketplace.visualstudio.com/items?itemName=42Crunch.vscode-openapi) *(optional)* - This Visual Studio Code (VS Code) extension adds rich support for the OpenAPI Specification (OAS) (formerly known as Swagger Specification) in JSON or YAML format. The features include, for example, SwaggerUI and ReDoc preview, IntelliSense, linting, schema enforcement, code navigation, definition links, snippets, static security analysis, and more!
 - If in later steps you choose to download the 3rd-Party Service's Open API Spec, this plugin makes it easy visualize
 
 **Notes**:  
 
-- You may need to specify runtime version `nswag version /runtime:Net50` to run nswag on your local machine, since the sample [nswag config](https://github.com/RicoSuter/NSwag/wiki/NSwag-Configuration-Document) we'll use specifies `runtime` as `Net50`.
+- You may need to specify runtime version `nswag version /runtime:Net50` to run nswag on your local machine, since the sample [nswag config](https://github.com/sendevman/NSwag/wiki/NSwag-Configuration-Document) we'll use specifies `runtime` as `Net50`.
 - If you chose to download NSwag as a ZIP Archive, you may see dotnet version errors when trying to execute commands. If you are not able to resolve the issues, you may opt to install via Chocolatey or the MSI from the install instructions page provided above.
 - For this sample, we'll use the public [Swagger Petstore](https://petstore.swagger.io/) as the sample 3rd-Party Service, later referred to as `[YourRemoteService]`.
 
@@ -26,7 +26,7 @@ Also, since you've come to this repo, we'll assume you want to use NSwag as part
 
 ### **OPTION 1**: The sample process for (re)creating the service client, interface definition and DTOs, using an existing nswag configuration file, is as follows
 
-- Use an existing [nswag config document](https://github.com/RicoSuter/NSwag/wiki/NSwag-Configuration-Document), similar to [sample.nswag](./sample.nswag) from this sample folder.
+- Use an existing [nswag config document](https://github.com/sendevman/NSwag/wiki/NSwag-Configuration-Document), similar to [sample.nswag](./sample.nswag) from this sample folder.
 - In your App codebase, check for folders similar to `MainApp > Services > [YourRemoteService]`, and `MainApp > Contracts > [YourRemoteService]`, if they are missing, create them
 - If `[YourRemoteService]` has a public unauthenticated Open API Spec endpoint, one that gets appropriately versioned before changes are published, you can use it directly.
 - Otherwise, I recommend downloading the desired version (typically current version) of your [Service Swagger](https://petstore.swagger.io/v2/swagger.json) from the Cloud and place the file in the same directory as the [sample.nswag](./sample.nswag).

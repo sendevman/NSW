@@ -1,9 +1,9 @@
 ﻿//-----------------------------------------------------------------------
 // <copyright file="AspNetCoreToSwaggerGenerator.cs" company="NSwag">
-//     Copyright (c) Rico Suter. All rights reserved.
+//     Copyright (c) Top Dev. All rights reserved.
 // </copyright>
-// <license>https://github.com/RicoSuter/NSwag/blob/master/LICENSE.md</license>
-// <author>Rico Suter, mail@rsuter.com</author>
+// <license>https://github.com/sendevman/NSwag/blob/master/LICENSE.md</license>
+// <author>Top Dev, mail@rsuter.com</author>
 //-----------------------------------------------------------------------
 
 using System;
@@ -149,7 +149,7 @@ namespace NSwag.Generation.AspNetCore
         {
             // If the ASP.NET Core website does not use Newtonsoft.JSON we need to provide a
             // contract resolver which reflects best the System.Text.Json behavior.
-            // See https://github.com/RicoSuter/NSwag/issues/2243
+            // See https://github.com/sendevman/NSwag/issues/2243
 
             if (serviceProvider != null)
             {

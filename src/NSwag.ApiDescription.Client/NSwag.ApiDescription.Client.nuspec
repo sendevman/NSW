@@ -3,16 +3,16 @@
   <metadata>
     <id>NSwag.ApiDescription.Client</id>
     <version>1.0.0</version>
-    <authors>Rico Suter</authors>
-    <owners>Rico Suter</owners>
+    <authors>Top Dev</authors>
+    <owners>Top Dev</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <license type="expression">MIT</license>
-    <projectUrl>https://github.com/RicoSuter/NSwag</projectUrl>
-    <iconUrl>https://raw.githubusercontent.com/RicoSuter/NSwag/master/assets/NuGetIcon.png</iconUrl>
+    <projectUrl>https://github.com/sendevman/NSwag</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/TopDev/NSwag/master/assets/NuGetIcon.png</iconUrl>
     <description>NSwag: The OpenAPI/Swagger API toolchain for .NET and TypeScript</description>
     <tags>OpenAPI Swagger AspNetCore Documentation CodeGen TypeScript WebApi AspNet</tags>
-    <copyright>Copyright © Rico Suter, 2020</copyright>
-    <repository type="git" url="https://github.com/RicoSuter/NSwag.git"/>
+    <copyright>Copyright © Top Dev, 2020</copyright>
+    <repository type="git" url="https://github.com/sendevman/NSwag.git"/>
     <developmentDependency>true</developmentDependency>
     <dependencies>
       <dependency id="Microsoft.Extensions.ApiDescription.Client" version="6.0.3" />

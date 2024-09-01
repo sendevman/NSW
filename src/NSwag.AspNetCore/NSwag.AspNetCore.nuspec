@@ -6,10 +6,10 @@
         <authors>$authors$</authors>
         <description>$description$</description>
         <tags>OpenAPI Swagger AspNetCore Documentation CodeGen TypeScript WebApi AspNet</tags>
-        <projectUrl>https://github.com/RicoSuter/NSwag</projectUrl>
+        <projectUrl>https://github.com/sendevman/NSwag</projectUrl>
         <license type="expression">MIT</license>
         <icon>NuGetIcon.png</icon>
-        <repository type="git" url="https://github.com/RicoSuter/NSwag.git"/>
+        <repository type="git" url="https://github.com/sendevman/NSwag.git"/>
         <dependencies>
             <group targetFramework=".NETFramework4.6.2">
                 <dependency id="NSwag.Annotations" version="$version$" exclude="Build,Analyzers" />
